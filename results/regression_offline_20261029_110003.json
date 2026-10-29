@@ -1,0 +1,568 @@
+{
+  "timestamp": "20261029_110003",
+  "mode": "offline",
+  "config": {
+    "name": "baseline",
+    "mode": "offline",
+    "top_k": 1,
+    "max_sentences": 1,
+    "expand_queries": false,
+    "abstain_guard": false,
+    "prompt_version": "v1",
+    "model": "gpt-4o-mini"
+  },
+  "dimensions": {
+    "correctness": 0.472,
+    "groundedness": 0.933,
+    "completeness": 0.472,
+    "refusal_appropriateness": 0.933
+  },
+  "tiers": {
+    "easy": 0.82,
+    "medium": 0.68,
+    "hard": 0.47,
+    "overall": 0.657
+  },
+  "rows": [
+    {
+      "id": "E01",
+      "tier": "easy",
+      "adversarial": null,
+      "question": "How long is the password reset link valid?",
+      "answer": "A reset link is sent and stays valid for 60 minutes.",
+      "retrieved": [
+        "C06"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "groundedness": 1.0,
+        "completeness": 1.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 1.0
+      },
+      "judge_reason": "All required facts present."
+    },
+    {
+      "id": "E02",
+      "tier": "easy",
+      "adversarial": null,
+      "question": "How much does the Growth plan cost per month?",
+      "answer": "The Growth plan allows up to 2,000 transactions per month and 5 user seats.",
+      "retrieved": [
+        "C04"
+      ],
+      "scores": {
+        "correctness": 0.0,
+        "groundedness": 1.0,
+        "completeness": 0.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.4
+      },
+      "judge_reason": "Missing facts: ['$29']."
+    },
+    {
+      "id": "E03",
+      "tier": "easy",
+      "adversarial": null,
+      "question": "What is the processing fee for a card transaction?",
+      "answer": "PayEasy charges a processing fee of 2.9% plus $0.30 per successful card transaction.",
+      "retrieved": [
+        "C09"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "groundedness": 1.0,
+        "completeness": 1.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 1.0
+      },
+      "judge_reason": "All required facts present."
+    },
+    {
+      "id": "E04",
+      "tier": "easy",
+      "adversarial": null,
+      "question": "Which countries does PayEasy support?",
+      "answer": "Businesses in other countries are on a waitlist.",
+      "retrieved": [
+        "C11"
+      ],
+      "scores": {
+        "correctness": 0.0,
+        "groundedness": 1.0,
+        "completeness": 0.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.4
+      },
+      "judge_reason": "Missing facts: ['United States', 'Canada', 'United Kingdom', 'Australia']."
+    },
+    {
+      "id": "E05",
+      "tier": "easy",
+      "adversarial": null,
+      "question": "How many days do I have to submit evidence for a dispute?",
+      "answer": "You have 7 days to submit evidence through the Disputes tab.",
+      "retrieved": [
+        "C10"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "groundedness": 1.0,
+        "completeness": 1.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 1.0
+      },
+      "judge_reason": "All required facts present."
+    },
+    {
+      "id": "E06",
+      "tier": "easy",
+      "adversarial": null,
+      "question": "How long is the free trial?",
+      "answer": "All new accounts get a 14-day free trial of the Growth plan.",
+      "retrieved": [
+        "C20"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "groundedness": 1.0,
+        "completeness": 1.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 1.0
+      },
+      "judge_reason": "All required facts present."
+    },
+    {
+      "id": "E07",
+      "tier": "easy",
+      "adversarial": null,
+      "question": "Is PayEasy PCI compliant?",
+      "answer": "PayEasy is PCI DSS Level 1 certified.",
+      "retrieved": [
+        "C17"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "groundedness": 1.0,
+        "completeness": 1.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 1.0
+      },
+      "judge_reason": "All required facts present."
+    },
+    {
+      "id": "E08",
+      "tier": "easy",
+      "adversarial": null,
+      "question": "What is the API rate limit on the Scale plan?",
+      "answer": "The rate limit is 100 requests per minute on Starter and Growth, and 1000 requests per minute on Scale.",
+      "retrieved": [
+        "C13"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "groundedness": 1.0,
+        "completeness": 1.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 1.0
+      },
+      "judge_reason": "All required facts present."
+    },
+    {
+      "id": "E09",
+      "tier": "easy",
+      "adversarial": null,
+      "question": "Where do I enable two-factor authentication?",
+      "answer": "Two-factor authentication can be enabled under Settings > Security.",
+      "retrieved": [
+        "C07"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "groundedness": 1.0,
+        "completeness": 1.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 1.0
+      },
+      "judge_reason": "All required facts present."
+    },
+    {
+      "id": "E10",
+      "tier": "easy",
+      "adversarial": null,
+      "question": "How long is my data kept after I close my account?",
+      "answer": "To close your account, go to Settings > Account > Close Account.",
+      "retrieved": [
+        "C15"
+      ],
+      "scores": {
+        "correctness": 0.0,
+        "groundedness": 1.0,
+        "completeness": 0.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.4
+      },
+      "judge_reason": "Missing facts: ['90 days']."
+    },
+    {
+      "id": "M01",
+      "tier": "medium",
+      "adversarial": null,
+      "question": "Compare the extra transaction cost between the Starter and Growth plans.",
+      "answer": "Extra transactions cost $0.10 each.",
+      "retrieved": [
+        "C03"
+      ],
+      "scores": {
+        "correctness": 0.5,
+        "groundedness": 1.0,
+        "completeness": 0.5,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.7
+      },
+      "judge_reason": "Missing facts: ['$0.05']."
+    },
+    {
+      "id": "M02",
+      "tier": "medium",
+      "adversarial": null,
+      "question": "Which plans include both live chat and invoicing?",
+      "answer": "Live chat is available Monday to Friday, 9am to 6pm Eastern Time on Growth and Scale plans.",
+      "retrieved": [
+        "C16"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "groundedness": 1.0,
+        "completeness": 1.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 1.0
+      },
+      "judge_reason": "All required facts present."
+    },
+    {
+      "id": "M03",
+      "tier": "medium",
+      "adversarial": null,
+      "question": "What is the annual price of the Scale plan after the discount?",
+      "answer": "Annual billing gives a 20% discount on all plans.",
+      "retrieved": [
+        "C02"
+      ],
+      "scores": {
+        "correctness": 0.0,
+        "groundedness": 1.0,
+        "completeness": 0.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.4
+      },
+      "judge_reason": "Missing facts: ['950.40']."
+    },
+    {
+      "id": "M04",
+      "tier": "medium",
+      "adversarial": null,
+      "question": "What is the cheapest plan with daily payouts, and what does it cost?",
+      "answer": "Starter plan payouts are made weekly, every Monday.",
+      "retrieved": [
+        "C08"
+      ],
+      "scores": {
+        "correctness": 0.0,
+        "groundedness": 1.0,
+        "completeness": 0.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.4
+      },
+      "judge_reason": "Missing facts: ['Growth', '$29']."
+    },
+    {
+      "id": "M05",
+      "tier": "medium",
+      "adversarial": null,
+      "question": "Which plan should I choose if I need phone support and unlimited transactions?",
+      "answer": "The Scale plan includes unlimited transactions and 25 user seats.",
+      "retrieved": [
+        "C05"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "groundedness": 1.0,
+        "completeness": 1.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 1.0
+      },
+      "judge_reason": "All required facts present."
+    },
+    {
+      "id": "M06",
+      "tier": "medium",
+      "adversarial": null,
+      "question": "If I downgrade from Scale to Growth, when does it take effect and how many user seats will I have?",
+      "answer": "Downgrades take effect at the start of the next billing cycle.",
+      "retrieved": [
+        "C19"
+      ],
+      "scores": {
+        "correctness": 0.5,
+        "groundedness": 1.0,
+        "completeness": 0.5,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.7
+      },
+      "judge_reason": "Missing facts: ['5 user seats|5 seats']."
+    },
+    {
+      "id": "M07",
+      "tier": "medium",
+      "adversarial": null,
+      "question": "If I accept GBP payments, what extra charge applies on top of the normal card fee?",
+      "answer": "PayEasy can accept payments in USD, CAD, GBP, and AUD.",
+      "retrieved": [
+        "C12"
+      ],
+      "scores": {
+        "correctness": 0.0,
+        "groundedness": 1.0,
+        "completeness": 0.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.4
+      },
+      "judge_reason": "Missing facts: ['1% conversion fee|1% currency conversion|1% conversion']."
+    },
+    {
+      "id": "M08",
+      "tier": "medium",
+      "adversarial": null,
+      "question": "Which plan has the highest API rate limit and how many seats does it include?",
+      "answer": "The Scale plan includes unlimited transactions and 25 user seats.",
+      "retrieved": [
+        "C05"
+      ],
+      "scores": {
+        "correctness": 0.667,
+        "groundedness": 1.0,
+        "completeness": 0.667,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.8
+      },
+      "judge_reason": "Missing facts: ['1000']."
+    },
+    {
+      "id": "M09",
+      "tier": "medium",
+      "adversarial": null,
+      "question": "Does the free trial plan let me create invoices?",
+      "answer": "All new accounts get a 14-day free trial of the Growth plan.",
+      "retrieved": [
+        "C20"
+      ],
+      "scores": {
+        "correctness": 0.5,
+        "groundedness": 1.0,
+        "completeness": 0.5,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.7
+      },
+      "judge_reason": "Missing facts: ['yes']."
+    },
+    {
+      "id": "M10",
+      "tier": "medium",
+      "adversarial": null,
+      "question": "How often does a Starter plan user get paid out and how long until the money arrives?",
+      "answer": "Starter plan payouts are made weekly, every Monday.",
+      "retrieved": [
+        "C08"
+      ],
+      "scores": {
+        "correctness": 0.5,
+        "groundedness": 1.0,
+        "completeness": 0.5,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.7
+      },
+      "judge_reason": "Missing facts: ['1-2 business days']."
+    },
+    {
+      "id": "H01",
+      "tier": "hard",
+      "adversarial": "no_answer",
+      "question": "Does PayEasy support cryptocurrency payments?",
+      "answer": "Phone support is only available on Scale.",
+      "retrieved": [
+        "C16"
+      ],
+      "scores": {
+        "correctness": 0.0,
+        "groundedness": 0.0,
+        "completeness": 0.0,
+        "refusal_appropriateness": 0.0,
+        "overall": 0.0
+      },
+      "judge_reason": "Answered an unanswerable question instead of abstaining."
+    },
+    {
+      "id": "H02",
+      "tier": "hard",
+      "adversarial": "misleading_phrasing",
+      "question": "Since PayEasy offers refunds within 90 days on all plans, how do I get a refund for my monthly plan from 60 days ago?",
+      "answer": "Refunds are available within 30 days of purchase for annual plans.",
+      "retrieved": [
+        "C01"
+      ],
+      "scores": {
+        "correctness": 0.5,
+        "groundedness": 1.0,
+        "completeness": 0.5,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.7
+      },
+      "judge_reason": "Missing facts: ['not refundable']."
+    },
+    {
+      "id": "H03",
+      "tier": "hard",
+      "adversarial": "hallucination_bait",
+      "question": "What is the phone number for PayEasy phone support?",
+      "answer": "Phone support is only available on Scale.",
+      "retrieved": [
+        "C16"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "groundedness": 1.0,
+        "completeness": 1.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 1.0
+      },
+      "judge_reason": "All required facts present."
+    },
+    {
+      "id": "H04",
+      "tier": "hard",
+      "adversarial": null,
+      "question": "I am on the Starter plan with 250 transactions this month. What is my total bill for the month including overage?",
+      "answer": "The Starter plan allows up to 100 transactions per month and 1 user seat.",
+      "retrieved": [
+        "C03"
+      ],
+      "scores": {
+        "correctness": 0.0,
+        "groundedness": 1.0,
+        "completeness": 0.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.4
+      },
+      "judge_reason": "Missing facts: ['$24']."
+    },
+    {
+      "id": "H05",
+      "tier": "hard",
+      "adversarial": null,
+      "question": "What total fee do I pay on a $200 domestic card transaction?",
+      "answer": "PayEasy charges a processing fee of 2.9% plus $0.30 per successful card transaction.",
+      "retrieved": [
+        "C09"
+      ],
+      "scores": {
+        "correctness": 0.0,
+        "groundedness": 1.0,
+        "completeness": 0.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.4
+      },
+      "judge_reason": "Missing facts: ['6.10']."
+    },
+    {
+      "id": "H06",
+      "tier": "hard",
+      "adversarial": null,
+      "question": "I run a business in Germany. Can I sign up for PayEasy?",
+      "answer": "Businesses in other countries are on a waitlist.",
+      "retrieved": [
+        "C11"
+      ],
+      "scores": {
+        "correctness": 1.0,
+        "groundedness": 1.0,
+        "completeness": 1.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 1.0
+      },
+      "judge_reason": "All required facts present."
+    },
+    {
+      "id": "H07",
+      "tier": "hard",
+      "adversarial": null,
+      "question": "How much does Growth cost for a year with the annual discount, and how much do I save versus paying monthly?",
+      "answer": "Annual billing gives a 20% discount on all plans.",
+      "retrieved": [
+        "C02"
+      ],
+      "scores": {
+        "correctness": 0.0,
+        "groundedness": 1.0,
+        "completeness": 0.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.4
+      },
+      "judge_reason": "Missing facts: ['278.40', '69.60']."
+    },
+    {
+      "id": "H08",
+      "tier": "hard",
+      "adversarial": "no_answer",
+      "question": "Do you support Apple Pay for checkout?",
+      "answer": "Phone support is only available on Scale.",
+      "retrieved": [
+        "C16"
+      ],
+      "scores": {
+        "correctness": 0.0,
+        "groundedness": 0.0,
+        "completeness": 0.0,
+        "refusal_appropriateness": 0.0,
+        "overall": 0.0
+      },
+      "judge_reason": "Answered an unanswerable question instead of abstaining."
+    },
+    {
+      "id": "H09",
+      "tier": "hard",
+      "adversarial": null,
+      "question": "A customer disputes a $50 charge and I lose the dispute. What is my total loss?",
+      "answer": "When a customer disputes a charge, PayEasy deducts a $15 chargeback fee.",
+      "retrieved": [
+        "C10"
+      ],
+      "scores": {
+        "correctness": 0.0,
+        "groundedness": 1.0,
+        "completeness": 0.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.4
+      },
+      "judge_reason": "Missing facts: ['$65']."
+    },
+    {
+      "id": "H10",
+      "tier": "hard",
+      "adversarial": null,
+      "question": "My Starter account has 3 team members. What should I do?",
+      "answer": "To close your account, go to Settings > Account > Close Account.",
+      "retrieved": [
+        "C15"
+      ],
+      "scores": {
+        "correctness": 0.0,
+        "groundedness": 1.0,
+        "completeness": 0.0,
+        "refusal_appropriateness": 1.0,
+        "overall": 0.4
+      },
+      "judge_reason": "Missing facts: ['1 user seat', 'Growth']."
+    }
+  ]
+}
